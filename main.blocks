@@ -1,0 +1,18 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables></variables>
+  <block type="pxt-on-start" x="0" y="6">
+    <statement name="HANDLER">
+      <block type="device_show_leds">
+        <field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `
+        </field>
+      </block>
+    </statement>
+  </block>
+  <block type="device_forever" x="256" y="0"></block>
+</xml>

@@ -1,0 +1,14 @@
+{
+    "name": "Bobbing Bots",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "servo": "*"
+    },
+    "description": "",
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ]
+}
