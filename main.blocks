@@ -32,11 +32,6 @@
                 <field name="NUM">127</field>
               </shadow>
             </value>
-            <next>
-              <block type="device_set_accelerometer_range">
-                <field name="range">AcceleratorRange.TwoG</field>
-              </block>
-            </next>
           </block>
         </next>
       </block>
@@ -51,16 +46,13 @@
           </block>
         </value>
         <value name="value">
-          <shadow type="math_number" id="/U*z7/$M~BMG}?ypIkHL">
-            <field name="NUM">0</field>
+          <shadow type="math_number">
+            <field name="NUM">1</field>
           </shadow>
-          <block type="device_acceleration">
-            <field name="NAME">Dimension.Strength</field>
-          </block>
         </value>
         <value name="high">
           <shadow type="math_number">
-            <field name="NUM">2000</field>
+            <field name="NUM">6</field>
           </shadow>
         </value>
       </block>
