@@ -15,7 +15,7 @@
             <field name="mode">NeoPixelMode.RGB</field>
             <value name="numleds">
               <shadow type="math_number">
-                <field name="NUM">11</field>
+                <field name="NUM">5</field>
               </shadow>
             </value>
           </block>
@@ -44,15 +44,23 @@
   </block>
   <block type="device_forever" x="0" y="264">
     <statement name="HANDLER">
-      <block type="neopixel_set_strip_color">
+      <block type="neopixel_show_bar_graph">
         <value name="strip">
           <block type="variables_get">
             <field name="VAR" id="oUSS$FKJ%);[q{5$}!Ax" variabletype="">strip</field>
           </block>
         </value>
-        <value name="rgb">
-          <shadow type="neopixel_colors">
-            <field name="color">NeoPixelColors.Red</field>
+        <value name="value">
+          <shadow type="math_number" id="/U*z7/$M~BMG}?ypIkHL">
+            <field name="NUM">0</field>
+          </shadow>
+          <block type="device_acceleration">
+            <field name="NAME">Dimension.Strength</field>
+          </block>
+        </value>
+        <value name="high">
+          <shadow type="math_number">
+            <field name="NUM">2000</field>
           </shadow>
         </value>
       </block>
